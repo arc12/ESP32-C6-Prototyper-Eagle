@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -7422,18 +7422,18 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R3" library="Master 2016" deviceset="R-EU_" device="" value="10k"/>
 <part name="R4" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="SUPPLY2" library="Master 2016" deviceset="VCC" device=""/>
-<part name="JP5" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="JP7" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="H2" library="Master 2016" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="R5" library="Master 2016" deviceset="R-EU_" device="" value="10k"/>
 <part name="SUPPLY3" library="Master 2016" deviceset="VCC" device=""/>
-<part name="JP6" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="JP4" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="R6" library="Master 2016" deviceset="R-EU_" device="" value="10k"/>
 <part name="R7" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="SUPPLY4" library="Master 2016" deviceset="VCC" device=""/>
-<part name="JP4" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="JP6" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="R8" library="Master 2016" deviceset="R-EU_" device="" value="10k"/>
 <part name="SUPPLY5" library="Master 2016" deviceset="VCC" device=""/>
-<part name="JP7" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="JP5" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="R1" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="R10" library="Master 2016" deviceset="R-EU_" device="" value="3k3"/>
 <part name="P13" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
@@ -7453,7 +7453,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="J10" library="Connector" deviceset="HEADER-4P" device="-80/40MIL" value="HP I2C"/>
 <part name="J11" library="Connector" deviceset="HEADER-4P" device="-80/40MIL" value="LP I2C"/>
 <part name="P8" library="con-jst-eh" deviceset="B3B-EH-A" device="" value="GPIO-A2"/>
-<part name="P4" library="con-jst-eh" deviceset="B3B-EH-A" device="" value="O/P DRV"/>
+<part name="P4" library="con-jst-eh" deviceset="B3B-EH-A" device="" value="HI DRV/CNT"/>
 <part name="P3" library="con-jst-eh" deviceset="B3B-EH-A" device="" value="CTRL"/>
 <part name="P7" library="con-jst-eh" deviceset="B4B-EH-A" device="" value="HP_UART"/>
 <part name="P2" library="con-jst-eh" deviceset="B4B-EH-A" device="" value="HP_I2C"/>
@@ -7479,9 +7479,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C7" library="Master 2016" deviceset="CPOL-EU" device="E2.5-5**10UF" value="10u"/>
 <part name="C8" library="Master 2016" deviceset="C-EU" device="1206" value="100n"/>
 <part name="LOGO1" library="Master 2016" deviceset="OSHW-LOGO" device="L"/>
-<part name="Q6" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
-<part name="Q7" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
-<part name="Q8" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
+<part name="Q3" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
+<part name="Q4" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
+<part name="Q2" library="Master 2016" deviceset="FDN338P_PMOS" device="SOT23_LONG" value="FDN338P"/>
 <part name="J3" library="Connector" deviceset="HEADER-5P" device="-2.54" value="HP_UART"/>
 <part name="R12" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="R13" library="Master 2016" deviceset="R-EU_" device=""/>
@@ -7500,6 +7500,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="R21" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="P5" library="con-jst-eh" deviceset="B4B-EH-A" device="" value="ADC"/>
 <part name="JP12" library="Connector" deviceset="HEADER-3P" device="-2.54" value="UART Vcc"/>
+<part name="C9" library="Master 2016" deviceset="CPOL-EU" device="E2.5-5**10UF" value="10u"/>
+<part name="C10" library="Master 2016" deviceset="CPOL-EU" device="E2.5-5**10UF" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -7524,7 +7526,7 @@ Vcc</text>
 <text x="93.98" y="88.9" size="1.27" layer="97">Cut trace if gate series
 resistors R12-R14 required
 </text>
-<text x="185.42" y="86.36" size="1.27" layer="97">R4, R7 to
+<text x="149.86" y="91.44" size="1.27" layer="97">R4, R7 to
 suit load I</text>
 <text x="93.98" y="38.1" size="1.27" layer="97">R1, R2 chosen
 to suit load I</text>
@@ -7600,7 +7602,7 @@ mutually incompatible</text>
 <instance part="SUPPLY2" gate="1" x="127" y="91.44" smashed="yes">
 <attribute name="VALUE" x="125.984" y="94.996" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="G$1" x="111.76" y="71.12" smashed="yes">
+<instance part="JP7" gate="G$1" x="111.76" y="71.12" smashed="yes">
 <attribute name="VALUE" x="109.22" y="66.04" size="1.778" layer="96"/>
 <attribute name="NAME" x="110.49" y="65.532" size="1.778" layer="95"/>
 </instance>
@@ -7612,7 +7614,7 @@ mutually incompatible</text>
 <instance part="SUPPLY3" gate="1" x="124.46" y="60.96" smashed="yes">
 <attribute name="VALUE" x="123.444" y="64.516" size="1.778" layer="96"/>
 </instance>
-<instance part="JP6" gate="G$1" x="137.16" y="58.42" smashed="yes" rot="R180">
+<instance part="JP4" gate="G$1" x="137.16" y="58.42" smashed="yes" rot="R180">
 <attribute name="VALUE" x="139.7" y="63.5" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="139.7" y="52.578" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -7627,7 +7629,7 @@ mutually incompatible</text>
 <instance part="SUPPLY4" gate="1" x="172.72" y="91.44" smashed="yes">
 <attribute name="VALUE" x="171.704" y="94.996" size="1.778" layer="96"/>
 </instance>
-<instance part="JP4" gate="G$1" x="157.48" y="71.12" smashed="yes">
+<instance part="JP6" gate="G$1" x="157.48" y="71.12" smashed="yes">
 <attribute name="VALUE" x="154.94" y="66.04" size="1.778" layer="96"/>
 <attribute name="NAME" x="156.21" y="65.532" size="1.778" layer="95"/>
 </instance>
@@ -7638,7 +7640,7 @@ mutually incompatible</text>
 <instance part="SUPPLY5" gate="1" x="175.26" y="63.5" smashed="yes">
 <attribute name="VALUE" x="174.244" y="67.056" size="1.778" layer="96"/>
 </instance>
-<instance part="JP7" gate="G$1" x="187.96" y="60.96" smashed="yes" rot="R180">
+<instance part="JP5" gate="G$1" x="187.96" y="60.96" smashed="yes" rot="R180">
 <attribute name="VALUE" x="190.5" y="66.04" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="190.5" y="55.118" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -7811,15 +7813,15 @@ mutually incompatible</text>
 <attribute name="VALUE" x="-27.559" y="49.276" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="35.56" y="96.52" smashed="yes"/>
-<instance part="Q6" gate="MOS" x="175.26" y="53.34" smashed="yes" rot="MR180">
+<instance part="Q3" gate="MOS" x="175.26" y="53.34" smashed="yes" rot="MR180">
 <attribute name="NAME" x="176.022" y="56.896" size="1.27" layer="95" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="178.816" y="56.134" size="1.27" layer="96" ratio="10" rot="MR270"/>
 </instance>
-<instance part="Q7" gate="MOS" x="172.72" y="81.28" smashed="yes" rot="MR180">
+<instance part="Q4" gate="MOS" x="172.72" y="81.28" smashed="yes" rot="MR180">
 <attribute name="NAME" x="173.482" y="84.836" size="1.27" layer="95" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="176.276" y="85.344" size="1.27" layer="96" ratio="10" rot="MR270"/>
 </instance>
-<instance part="Q8" gate="MOS" x="124.46" y="50.8" smashed="yes" rot="MR180">
+<instance part="Q2" gate="MOS" x="124.46" y="50.8" smashed="yes" rot="MR180">
 <attribute name="NAME" x="125.222" y="54.356" size="1.27" layer="95" ratio="10" rot="MR90"/>
 <attribute name="VALUE" x="128.016" y="53.594" size="1.27" layer="96" ratio="10" rot="MR270"/>
 </instance>
@@ -7887,6 +7889,14 @@ mutually incompatible</text>
 <instance part="JP12" gate="G$1" x="132.08" y="25.4" smashed="yes">
 <attribute name="VALUE" x="133.35" y="21.59" size="1.27" layer="96" rot="R90"/>
 <attribute name="NAME" x="129.54" y="29.21" size="1.27" layer="95"/>
+</instance>
+<instance part="C9" gate="G$1" x="182.88" y="86.36" smashed="yes">
+<attribute name="NAME" x="180.467" y="87.1474" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="177.673" y="81.7626" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="137.16" y="86.36" smashed="yes">
+<attribute name="NAME" x="134.747" y="87.1474" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="131.953" y="81.7626" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8162,6 +8172,9 @@ mutually incompatible</text>
 <wire x1="119.38" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
 <junction x="127" y="91.44"/>
 <pinref part="Q5" gate="MOS" pin="S"/>
+<pinref part="C10" gate="G$1" pin="+"/>
+<wire x1="127" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="91.44" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="1" pin="VCC"/>
@@ -8172,8 +8185,8 @@ mutually incompatible</text>
 <junction x="124.46" y="60.96"/>
 <wire x1="124.46" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <junction x="124.46" y="58.42"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
-<pinref part="Q8" gate="MOS" pin="S"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="MOS" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="1" pin="VCC"/>
@@ -8181,7 +8194,10 @@ mutually incompatible</text>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 <junction x="172.72" y="91.44"/>
-<pinref part="Q7" gate="MOS" pin="S"/>
+<pinref part="Q4" gate="MOS" pin="S"/>
+<wire x1="172.72" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="+"/>
+<wire x1="182.88" y1="91.44" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="1" pin="VCC"/>
@@ -8191,9 +8207,9 @@ mutually incompatible</text>
 <wire x1="167.64" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
 <junction x="175.26" y="63.5"/>
 <junction x="175.26" y="60.96"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="MOS" pin="S"/>
+<pinref part="Q3" gate="MOS" pin="S"/>
 </segment>
 <segment>
 <wire x1="158.75" y1="-22.86" x2="147.32" y2="-22.86" width="0.1524" layer="91"/>
@@ -8295,54 +8311,6 @@ mutually incompatible</text>
 <wire x1="-10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GPIO7" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="P$3"/>
-<wire x1="124.46" y1="5.08" x2="127" y2="5.08" width="0.1524" layer="91"/>
-<label x="124.46" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="P$3"/>
-<wire x1="127" y1="5.08" x2="134.62" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="5.08" x2="146.05" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="146.05" y1="5.08" x2="158.75" y2="5.08" width="0.1524" layer="91"/>
-<junction x="146.05" y="5.08"/>
-<pinref part="P1" gate="G$1" pin="3"/>
-<junction x="134.62" y="5.08"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="127" y1="0" x2="127" y2="5.08" width="0.1524" layer="91"/>
-<junction x="127" y="5.08"/>
-</segment>
-</net>
-<net name="GPIO6" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="P$4"/>
-<wire x1="124.46" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
-<label x="124.46" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="P$4"/>
-<wire x1="132.08" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="2.54" x2="146.05" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="146.05" y1="2.54" x2="158.75" y2="2.54" width="0.1524" layer="91"/>
-<junction x="146.05" y="2.54"/>
-<pinref part="P1" gate="G$1" pin="4"/>
-<junction x="134.62" y="2.54"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="0" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
-<junction x="132.08" y="2.54"/>
-</segment>
-<segment>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-30.48" x2="63.5" y2="-30.48" width="0.1524" layer="91"/>
-<label x="60.96" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R21" gate="G$1" pin="2"/>
-<pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="-30.48" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="MOS" pin="G"/>
-<wire x1="78.74" y1="-30.48" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="76.2" y="-30.48"/>
-<wire x1="63.5" y1="-30.48" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="63.5" y="-30.48"/>
-<junction x="73.66" y="-30.48"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="127" y1="76.2" x2="127" y2="73.66" width="0.1524" layer="91"/>
@@ -8354,11 +8322,13 @@ mutually incompatible</text>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <junction x="137.16" y="73.66"/>
 <label x="139.7" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="C10" gate="G$1" pin="-"/>
+<wire x1="137.16" y1="81.28" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="185.42" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -8387,18 +8357,20 @@ mutually incompatible</text>
 <segment>
 <wire x1="172.72" y1="76.2" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="Q7" gate="MOS" pin="D"/>
+<pinref part="Q4" gate="MOS" pin="D"/>
 </segment>
 </net>
 <net name="LP_GPIO4_P" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="73.66" x2="185.42" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="71.12" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <junction x="182.88" y="73.66"/>
 <label x="185.42" y="73.66" size="1.27" layer="95" xref="yes"/>
+<pinref part="C9" gate="G$1" pin="-"/>
+<wire x1="182.88" y1="81.28" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="185.42" y="0" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -8410,15 +8382,15 @@ mutually incompatible</text>
 <segment>
 <wire x1="175.26" y1="48.26" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="58.42" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="P10" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="45.72" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
 <junction x="180.34" y="45.72"/>
-<pinref part="Q6" gate="MOS" pin="D"/>
+<pinref part="Q3" gate="MOS" pin="D"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="GPIO15" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="IO15"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -8464,11 +8436,11 @@ mutually incompatible</text>
 <wire x1="167.64" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <junction x="165.1" y="81.28"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="81.28" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <label x="149.86" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q7" gate="MOS" pin="G"/>
+<pinref part="Q4" gate="MOS" pin="G"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="81.28" x2="152.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
@@ -8487,7 +8459,7 @@ mutually incompatible</text>
 <wire x1="121.92" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <junction x="119.38" y="81.28"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="JP7" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="81.28" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
 <label x="104.14" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -8650,7 +8622,7 @@ mutually incompatible</text>
 <wire x1="116.84" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
 <junction x="116.84" y="50.8"/>
 <label x="101.6" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q8" gate="MOS" pin="G"/>
+<pinref part="Q2" gate="MOS" pin="G"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="50.8" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
@@ -8659,9 +8631,9 @@ mutually incompatible</text>
 <junction x="114.3" y="50.8"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
-<label x="99.06" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="P8" gate="G$1" pin="3"/>
+<pinref part="P8" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
+<label x="99.06" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO23" class="0">
@@ -8676,7 +8648,7 @@ mutually incompatible</text>
 <wire x1="167.64" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
 <junction x="167.64" y="53.34"/>
 <label x="152.4" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="Q6" gate="MOS" pin="G"/>
+<pinref part="Q3" gate="MOS" pin="G"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
@@ -8685,9 +8657,9 @@ mutually incompatible</text>
 <junction x="165.1" y="53.34"/>
 </segment>
 <segment>
-<wire x1="99.06" y1="-2.54" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
-<label x="99.06" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="P8" gate="G$1" pin="2"/>
+<pinref part="P8" gate="G$1" pin="3"/>
+<wire x1="99.06" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
+<label x="99.06" y="-5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -8797,12 +8769,56 @@ mutually incompatible</text>
 <wire x1="35.56" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="33.02" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="P$4"/>
+<wire x1="124.46" y1="2.54" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<label x="124.46" y="2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J11" gate="G$1" pin="P$4"/>
+<wire x1="132.08" y1="2.54" x2="134.62" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="2.54" x2="146.05" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="2.54" x2="158.75" y2="2.54" width="0.1524" layer="91"/>
+<junction x="146.05" y="2.54"/>
+<pinref part="P1" gate="G$1" pin="4"/>
+<junction x="134.62" y="2.54"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="0" x2="132.08" y2="2.54" width="0.1524" layer="91"/>
+<junction x="132.08" y="2.54"/>
+</segment>
+<segment>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="-30.48" x2="63.5" y2="-30.48" width="0.1524" layer="91"/>
+<label x="60.96" y="-30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-30.48" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="MOS" pin="G"/>
+<wire x1="78.74" y1="-30.48" x2="76.2" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="76.2" y="-30.48"/>
+<wire x1="63.5" y1="-30.48" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="63.5" y="-30.48"/>
+<junction x="73.66" y="-30.48"/>
+</segment>
 </net>
 <net name="LP_GPIO7" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="IO7"/>
 <wire x1="35.56" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <label x="33.02" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="P$3"/>
+<wire x1="124.46" y1="5.08" x2="127" y2="5.08" width="0.1524" layer="91"/>
+<label x="124.46" y="5.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J11" gate="G$1" pin="P$3"/>
+<wire x1="127" y1="5.08" x2="134.62" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="5.08" x2="146.05" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="146.05" y1="5.08" x2="158.75" y2="5.08" width="0.1524" layer="91"/>
+<junction x="146.05" y="5.08"/>
+<pinref part="P1" gate="G$1" pin="3"/>
+<junction x="134.62" y="5.08"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="127" y1="0" x2="127" y2="5.08" width="0.1524" layer="91"/>
+<junction x="127" y="5.08"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -8816,11 +8832,11 @@ mutually incompatible</text>
 </net>
 <net name="PWR_SW_22" class="0">
 <segment>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="55.88" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P9" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q8" gate="MOS" pin="D"/>
+<pinref part="Q2" gate="MOS" pin="D"/>
 <wire x1="124.46" y1="45.72" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
 <label x="124.46" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="129.54" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
