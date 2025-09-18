@@ -8031,17 +8031,17 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="J6" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="R8" library="Master 2016" deviceset="R-EU_" device="" value="10k"/>
 <part name="SUPPLY5" library="Master 2016" deviceset="VCC" device=""/>
-<part name="JP5" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="J18" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="R1" library="Master 2016" deviceset="R-EU_" device=""/>
 <part name="R10" library="Master 2016" deviceset="R-EU_" device="" value="3k3"/>
 <part name="P13" library="con-jst-ph" deviceset="B2B-PH-K" device="" value="Pwr Sw 22"/>
 <part name="GND4" library="Master 2016" deviceset="GND" device=""/>
 <part name="GND5" library="Master 2016" deviceset="GND" device=""/>
-<part name="JP1" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
-<part name="JP2" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="J15" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="J16" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="GND6" library="Master 2016" deviceset="GND" device=""/>
 <part name="J14" library="Master 2016" deviceset="HEADER-1X2P" device="PTH" value="I_measure"/>
-<part name="JP3" library="Master 2016" deviceset="HEADER-1X2P" device="PTH" value="BOOT"/>
+<part name="J17" library="Master 2016" deviceset="HEADER-1X2P" device="PTH" value="BOOT"/>
 <part name="GND7" library="Master 2016" deviceset="GND" device=""/>
 <part name="R9" library="Master 2016" deviceset="R-EU_" device="" value="470"/>
 <part name="J1" library="Connector" deviceset="HEADER-4P" device="-80/40MIL" value="HP I2C"/>
@@ -8067,7 +8067,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="J10" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="LED2" library="Master 2016" deviceset="LED" device="1206"/>
 <part name="R2" library="Master 2016" deviceset="R-EU_" device=""/>
-<part name="JP11" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
+<part name="J19" library="Master 2016" deviceset="HEADER-1X2P" device="PTH"/>
 <part name="C5" library="Master 2016" deviceset="CPOL-EU" device="E2.5-5**10UF" value="1u"/>
 <part name="C7" library="Master 2016" deviceset="C-EU" device="1206" value="1u"/>
 <part name="C6" library="Master 2016" deviceset="C-EU" device="1206" value="1u"/>
@@ -8241,7 +8241,7 @@ for one/both</text>
 <instance part="SUPPLY5" gate="1" x="172.72" y="66.04" smashed="yes">
 <attribute name="VALUE" x="164.084" y="67.056" size="1.778" layer="96"/>
 </instance>
-<instance part="JP5" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="R180">
+<instance part="J18" gate="G$1" x="190.5" y="53.34" smashed="yes" rot="R180">
 <attribute name="VALUE" x="193.04" y="58.42" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="191.77" y="58.928" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -8263,11 +8263,11 @@ for one/both</text>
 <instance part="GND5" gate="1" x="172.72" y="35.56" smashed="yes">
 <attribute name="VALUE" x="170.18" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="-35.56" y="-22.86" smashed="yes" rot="R180">
+<instance part="J15" gate="G$1" x="-35.56" y="-22.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-33.02" y="-17.78" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-33.02" y="-28.702" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="JP2" gate="G$1" x="-12.7" y="-22.86" smashed="yes" rot="R180">
+<instance part="J16" gate="G$1" x="-12.7" y="-22.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-10.16" y="-17.78" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-10.16" y="-28.702" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -8278,7 +8278,7 @@ for one/both</text>
 <attribute name="VALUE" x="-1.27" y="80.01" size="1.778" layer="96"/>
 <attribute name="NAME" x="8.382" y="78.74" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="JP3" gate="G$1" x="-35.56" y="-2.54" smashed="yes" rot="R180">
+<instance part="J17" gate="G$1" x="-35.56" y="-2.54" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-33.02" y="2.54" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-33.02" y="-8.382" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -8377,7 +8377,7 @@ for one/both</text>
 <attribute name="NAME" x="34.29" y="-1.0414" size="1.778" layer="95"/>
 <attribute name="VALUE" x="34.29" y="-5.842" size="1.778" layer="96"/>
 </instance>
-<instance part="JP11" gate="G$1" x="48.26" y="-10.16" smashed="yes" rot="R90">
+<instance part="J19" gate="G$1" x="48.26" y="-10.16" smashed="yes" rot="R90">
 <attribute name="VALUE" x="53.34" y="-12.7" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="42.418" y="-12.7" size="1.778" layer="95" rot="R90"/>
 </instance>
@@ -8633,18 +8633,18 @@ for one/both</text>
 <pinref part="P7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="J15" gate="G$1" pin="2"/>
 <wire x1="-43.18" y1="-25.4" x2="-43.18" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-33.02" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="-33.02" x2="7.62" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="J16" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="-25.4" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-20.32" y="-33.02"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="-45.72" y1="-7.62" x2="-45.72" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="J17" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
@@ -8957,7 +8957,7 @@ for one/both</text>
 <wire x1="167.64" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="MOS" pin="S"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="J18" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="53.34" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
 <junction x="172.72" y="53.34"/>
@@ -9440,7 +9440,7 @@ for one/both</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="J17" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="-2.54" x2="-45.72" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
@@ -9462,13 +9462,13 @@ for one/both</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="JP11" gate="G$1" pin="2"/>
+<pinref part="J19" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="-2.54" x2="45.72" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="1"/>
+<pinref part="J19" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="-2.54" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
@@ -9544,14 +9544,14 @@ for one/both</text>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="J16" gate="G$1" pin="1"/>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="-22.86" x2="-27.94" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="J15" gate="G$1" pin="1"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-43.18" y1="-22.86" x2="-50.8" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
@@ -9599,7 +9599,7 @@ for one/both</text>
 <pinref part="Q1" gate="MOS" pin="D"/>
 <wire x1="172.72" y1="40.64" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="40.64" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="JP5" gate="G$1" pin="2"/>
+<pinref part="J18" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="P10" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="40.64" x2="180.34" y2="40.64" width="0.1524" layer="91"/>
